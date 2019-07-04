@@ -4,11 +4,8 @@ import ExpenseForm from './ExpenseForm';
 import { startAddExpense } from '../actions/expenses';
 
 export class AddExpensePage extends React.Component {
-<<<<<<< HEAD
-  onSubmit = (expense) =>{
-=======
+
   onSubmit = (expense) => {
->>>>>>> de3a69f3ec1d8c57c8a719084edbb40bf9d15307
     this.props.startAddExpense(expense);
     this.props.history.push('/');
   };
